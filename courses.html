@@ -1,184 +1,725 @@
-<div class="courses">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="section_title_container text-center">
-					<h2 class="section_title">Programs Offered</h2>
-					<div class="section_subtitle">
-						<p>Indrachandra Campus offers quality higher education programs affiliated with Tribhuvan University.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Course Details</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Unicat project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/course.css">
+<link rel="stylesheet" type="text/css" href="styles/course_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Have any questions?</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>001-1234-88888</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>info.deercreative@gmail.com</div>
+									</li>
+								</ul>
+								<div class="top_bar_login ml-auto">
+									<div class="login_button"><a href="#">Register or Login</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<a href="#">
+									<div class="logo_text">Unic<span>at</span></div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="courses.html">Courses</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="#">Page</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+								<!-- Hamburger -->
+
+								<div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</nav>
+
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row courses_row">
 
-			<!-- BBS -->
-			<div class="col-lg-4 course_col">
-				<div class="course">
-					<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
-					<div class="course_body">
-						<h3 class="course_title"><a href="https://indrachandracampus.edu.np/programs?programId=1">Bachelor of Business Studies (BBS)</a></h3>
-						<div class="course_teacher">Management Faculty — Tribhuvan University</div>
-						<div class="course_text">
-							<p>
-								The Bachelor of Business Studies (BBS) is a four-year undergraduate program 
-								affiliated with Tribhuvan University. The program is structured across four academic 
-								years and is designed to equip students with essential knowledge and practical skills 
-								in the field of business and management.
-							</p>
-							<p>
-								The curriculum covers a broad range of subjects including Business English, 
-								Microeconomics, Financial Accounting, Business Statistics, Macroeconomics, 
-								Business Law, Cost and Management Accounting, Finance, Marketing, 
-								Organizational Behavior, and Auditing.
-							</p>
-							<p>
-								Students develop core competencies in accounting, finance, marketing, and 
-								management. The program provides a strong academic foundation that prepares 
-								graduates for professional careers in the business sector as well as for higher 
-								studies such as MBS or MBA programs.
-							</p>
-							<p>
-								The BBS program at Indrachandra Campus is known for its experienced faculty, 
-								supportive learning environment, and commitment to providing affordable quality 
-								education to students from all backgrounds including Dalits, Janajatis, and 
-								students from remote hilly districts of eastern Nepal.
-							</p>
-							<p>
-								Graduates of BBS can pursue careers as accountants, financial analysts, marketing 
-								officers, business managers, entrepreneurs, or government officials. The degree 
-								also qualifies students to appear in civil service and banking examinations.
-							</p>
+		<!-- Header Search Panel -->
+		<div class="header_search_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#" class="header_search_form">
+								<input type="search" class="search_input" placeholder="Search" required="required">
+								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</form>
 						</div>
 					</div>
-					<div class="course_footer">
-						<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-							<div class="course_info">
-								<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								<span>Undergraduate</span>
-							</div>
-							<div class="course_info">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-								<span>4 Years</span>
-							</div>
-							<div class="course_price ml-auto">TU Affiliated</div>
+				</div>
+			</div>			
+		</div>			
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Home</a></li>
+				<li class="menu_mm"><a href="#">About</a></li>
+				<li class="menu_mm"><a href="#">Courses</a></li>
+				<li class="menu_mm"><a href="#">Blog</a></li>
+				<li class="menu_mm"><a href="#">Page</a></li>
+				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="courses.html">Courses</a></li>
+								<li>Course Details</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>			
+	</div>
 
-			<!-- MBS -->
-			<div class="col-lg-4 course_col">
-				<div class="course">
-					<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
-					<div class="course_body">
-						<h3 class="course_title"><a href="https://indrachandracampus.edu.np/programs?programId=2">Master of Business Studies (MBS)</a></h3>
-						<div class="course_teacher">Management Faculty — Tribhuvan University</div>
-						<div class="course_text">
-							<p>
-								The Master of Business Studies (MBS) is a postgraduate program affiliated with 
-								Tribhuvan University. The program spans two academic years and is structured 
-								across four semesters — First Semester, Second Semester, Third Semester, 
-								and Fourth Semester.
-							</p>
-							<p>
-								The MBS curriculum is designed to build advanced knowledge and skills in the 
-								areas of management, finance, marketing, economics, and research methodology. 
-								It develops students' analytical thinking, strategic decision-making, and 
-								leadership capabilities required in today's competitive business environment.
-							</p>
-							<p>
-								The program prepares graduates for senior and leadership roles in business 
-								organizations, financial institutions, government bodies, non-governmental 
-								organizations, and academic institutions. It also provides a solid foundation 
-								for students who wish to pursue doctoral studies or independent research in 
-								business and management.
-							</p>
-							<p>
-								At Indrachandra Campus, the MBS program is delivered by highly qualified and 
-								experienced faculty who are dedicated to providing students with both theoretical 
-								knowledge and practical exposure. The campus maintains a student-friendly 
-								environment to help postgraduate students excel in their academic pursuits.
-							</p>
-							<p>
-								MBS graduates from Indrachandra Campus go on to build successful careers as 
-								business executives, financial managers, marketing strategists, research analysts, 
-								consultants, academicians, and entrepreneurs across Nepal and beyond.
-							</p>
+	<!-- Course -->
+
+	<div class="course">
+		<div class="container">
+			<div class="row">
+
+				<!-- Course -->
+				<div class="col-lg-8">
+					
+					<div class="course_container">
+						<div class="course_title">Bachelor of Business Studies (BBS)</div>
+						<div class="course_info d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+
+							<!-- Course Info Item -->
+							<div class="course_info_item">
+								<div class="course_info_title">Faculty:</div>
+								<div class="course_info_text"><a href="#">Management Faculty</a></div>
+							</div>
+
+							<!-- Course Info Item -->
+							<div class="course_info_item">
+								<div class="course_info_title">Reviews:</div>
+								<div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div>
+							</div>
+
+							<!-- Course Info Item -->
+							<div class="course_info_item">
+								<div class="course_info_title">Affiliation:</div>
+								<div class="course_info_text"><a href="#">Tribhuvan University</a></div>
+							</div>
+
 						</div>
-					</div>
-					<div class="course_footer">
-						<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-							<div class="course_info">
-								<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								<span>Postgraduate</span>
+
+						<!-- Course Image -->
+						<div class="course_image"><img src="images/course_image.jpg" alt=""></div>
+
+						<!-- Course Tabs -->
+						<div class="course_tabs_container">
+							<div class="tabs d-flex flex-row align-items-center justify-content-start">
+								<div class="tab active">description</div>
+								<div class="tab">curriculum</div>
+								<div class="tab">reviews</div>
 							</div>
-							<div class="course_info">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-								<span>4 Semesters</span>
+							<div class="tab_panels">
+
+								<!-- Description -->
+								<div class="tab_panel active">
+									<div class="tab_panel_title">Bachelor of Business Studies (BBS)</div>
+									<div class="tab_panel_content">
+										<div class="tab_panel_text">
+											<p>The Bachelor of Business Studies (BBS) is a four-year undergraduate program offered at Indrachandra Campus, Birtamode, Jhapa, affiliated with Tribhuvan University. The program is structured across four academic years and is thoughtfully designed to equip students with essential theoretical knowledge and practical skills in the field of business, management, and commerce. It is one of the most sought-after undergraduate programs at the campus, attracting students from Jhapa, Ilam, Taplejung, Panchthar, Terhathum, Bhojpur, and other districts of eastern Nepal.</p>
+											<p>The BBS program at Indrachandra Campus has been instrumental in transforming the academic lives of students from all socioeconomic backgrounds, including Dalits, Janajatis, and students from remote hilly communities. The campus has long been committed to making quality higher education accessible and affordable for all. Through dedicated faculty, a supportive academic environment, and a student-centered approach, Indrachandra Campus ensures that every enrolled student receives the guidance they need to excel.</p>
+											<p>The program provides a comprehensive understanding of core business disciplines including financial accounting, cost and management accounting, business law, economics, marketing, finance, organizational behavior, auditing, and business communication. Students also develop essential soft skills such as critical thinking, analytical reasoning, leadership, and entrepreneurial mindset that are vital for thriving in today's competitive business environment.</p>
+											<p>For any further queries about the BBS program, students and guardians are encouraged to contact the campus directly at Syaldangi, Birtamode-6, Jhapa. Phone: 023-532799. Email: indrachandracampusbtm@gmail.com. The campus team is always available to guide prospective students through the admission process and program details.</p>
+										</div>
+										<div class="tab_panel_section">
+											<div class="tab_panel_subtitle">Admission Requirements</div>
+											<ul class="tab_panel_bullets">
+												<li>Candidates must have passed the SEE (Secondary Education Examination) or equivalent from a recognized board.</li>
+												<li>Candidates must have completed the +2 (Higher Secondary) or equivalent program from a recognized institution with at least second division.</li>
+												<li>Candidates from any stream — Science, Management, Humanities, or Education — are eligible to apply for the BBS program.</li>
+												<li>Candidates must fulfill the admission requirements set by Tribhuvan University and Indrachandra Campus for the respective academic year.</li>
+											</ul>
+										</div>
+										<div class="tab_panel_section">
+											<div class="tab_panel_subtitle">Vision of the BBS Program</div>
+											<div class="tab_panel_text">
+												<p>The BBS program at Indrachandra Campus aims to produce competent, ethical, and socially responsible business graduates who can contribute meaningfully to Nepal's economic development. The program envisions building future business leaders, entrepreneurs, and administrators who are equipped with both academic knowledge and practical business acumen. It is designed to nurture well-rounded graduates who can adapt to the evolving demands of the local and global business landscape while upholding professional integrity and social values.</p>
+											</div>
+										</div>
+										<div class="tab_panel_faq">
+											<div class="tab_panel_title">FAQ</div>
+
+											<!-- Accordions -->
+											<div class="accordions">
+												
+												<div class="elements_accordions">
+
+													<div class="accordion_container">
+														<div class="accordion d-flex flex-row align-items-center"><div>Can I enroll in BBS after completing +2 Science?</div></div>
+														<div class="accordion_panel">
+															<p>Yes. Students from any stream — including Science, Management, Humanities, or Education — who have passed the +2 or equivalent examination from a recognized institution are eligible to apply for the BBS program at Indrachandra Campus.</p>
+														</div>
+													</div>
+
+													<div class="accordion_container">
+														<div class="accordion d-flex flex-row align-items-center active"><div>How many years does the BBS program take to complete?</div></div>
+														<div class="accordion_panel">
+															<p>The BBS program is a four-year undergraduate degree program affiliated with Tribhuvan University. It is structured across four academic years: First Year, Second Year, Third Year, and Fourth Year.</p>
+														</div>
+													</div>
+
+													<div class="accordion_container">
+														<div class="accordion d-flex flex-row align-items-center"><div>What career opportunities are available after BBS?</div></div>
+														<div class="accordion_panel">
+															<p>BBS graduates can pursue careers as accountants, financial analysts, marketing officers, bank officers, business managers, entrepreneurs, or government officials. The degree also qualifies graduates to appear in civil service, banking, and other competitive examinations in Nepal.</p>
+														</div>
+													</div>
+
+													<div class="accordion_container">
+														<div class="accordion d-flex flex-row align-items-center"><div>Can I pursue MBS after completing BBS from Indrachandra Campus?</div></div>
+														<div class="accordion_panel">
+															<p>Yes. After successfully completing the BBS program, graduates are eligible to apply for the Master of Business Studies (MBS) program, which is also offered at Indrachandra Campus and is affiliated with Tribhuvan University.</p>
+														</div>
+													</div>
+
+													<div class="accordion_container">
+														<div class="accordion d-flex flex-row align-items-center"><div>Is scholarship available for the BBS program?</div></div>
+														<div class="accordion_panel">
+															<p>Indrachandra Campus is committed to inclusive education and provides scholarship opportunities for students from marginalized communities, Dalits, Janajatis, and economically disadvantaged backgrounds. Please contact the campus administration for details about available scholarships and eligibility criteria.</p>
+														</div>
+													</div>
+
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Curriculum -->
+								<div class="tab_panel tab_panel_2">
+									<div class="tab_panel_content">
+										<div class="tab_panel_title">BBS Curriculum Overview</div>
+										<div class="tab_panel_content">
+											<div class="tab_panel_text">
+												<p>The BBS curriculum is structured across four academic years under Tribhuvan University. Each year introduces students to progressively advanced concepts in business, management, accounting, economics, finance, and related disciplines. The syllabus is designed to provide both theoretical foundations and practical business applications.</p>
+											</div>
+
+											<!-- Dropdowns -->
+											<ul class="dropdowns">
+												<li class="has_children">
+													<div class="dropdown_item">
+														<div class="dropdown_item_title"><span>Year 1:</span> Foundation of Business Studies</div>
+														<div class="dropdown_item_text">
+															<p>The first year introduces students to the fundamental concepts of business and management. Core subjects include Business English, Principles of Management, Business Economics (Micro), Financial Accounting, and Business Mathematics and Statistics.</p>
+														</div>
+													</div>
+													<ul>
+														<li>
+															<div class="dropdown_item">
+																<div class="dropdown_item_title"><span>Year 1 — Subject 1:</span> Business English and Communication</div>
+																<div class="dropdown_item_text">
+																	<p>This subject focuses on developing students' written and verbal communication skills essential for professional business environments. Students learn report writing, correspondence, and presentation techniques.</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="dropdown_item">
+																<div class="dropdown_item_title"><span>Year 1 — Subject 2:</span> Financial Accounting</div>
+																<div class="dropdown_item_text">
+																	<p>Students are introduced to the principles and practices of financial accounting including journal entries, ledger posting, trial balance, and preparation of final accounts for sole traders and partnerships.</p>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</li>
+												<li class="has_children">
+													<div class="dropdown_item">
+														<div class="dropdown_item_title"><span>Year 2:</span> Intermediate Business and Accounting</div>
+														<div class="dropdown_item_text">
+															<p>The second year builds upon the foundational concepts introduced in the first year. Students study Macroeconomics, Corporate Accounting, Business Law, Cost and Management Accounting, and Marketing.</p>
+														</div>
+													</div>
+													<ul>
+														<li>
+															<div class="dropdown_item">
+																<div class="dropdown_item_title"><span>Year 2 — Subject 1:</span> Cost and Management Accounting</div>
+																<div class="dropdown_item_text">
+																	<p>This subject equips students with the tools to analyze costs, prepare budgets, and use management accounting information for business decision-making and performance evaluation.</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="dropdown_item">
+																<div class="dropdown_item_title"><span>Year 2 — Subject 2:</span> Business Law</div>
+																<div class="dropdown_item_text">
+																	<p>Students gain a comprehensive understanding of Nepal's legal framework governing business activities, including contract law, company law, negotiable instruments, and consumer protection regulations.</p>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<div class="dropdown_item">
+														<div class="dropdown_item_title"><span>Year 3:</span> Advanced Management and Finance</div>
+														<div class="dropdown_item_text">
+															<p>In the third year, students advance their knowledge in key areas including Financial Management, Organizational Behavior and Human Resource Management, Income Tax and VAT, Auditing, and Fundamentals of E-Business and Information Technology.</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="dropdown_item">
+														<div class="dropdown_item_title"><span>Year 4:</span> Strategic Business and Research</div>
+														<div class="dropdown_item_text">
+															<p>The final year focuses on strategic and applied business knowledge. Students study Strategic Management, International Business, Entrepreneurship, Project Work, and optional specialization subjects in Finance, Marketing, or Accountancy. The year also includes a research project to develop independent analytical skills.</p>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<!-- Reviews -->
+								<div class="tab_panel tab_panel_3">
+									<div class="tab_panel_title">Course Review</div>
+
+									<!-- Rating -->
+									<div class="review_rating_container">
+										<div class="review_rating">
+											<div class="review_rating_num">4.5</div>
+											<div class="review_rating_stars">
+												<div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div>
+											</div>
+											<div class="review_rating_text">(28 Ratings)</div>
+										</div>
+										<div class="review_rating_bars">
+											<ul>
+												<li><span>5 Star</span><div class="review_rating_bar"><div style="width:90%;"></div></div></li>
+												<li><span>4 Star</span><div class="review_rating_bar"><div style="width:75%;"></div></div></li>
+												<li><span>3 Star</span><div class="review_rating_bar"><div style="width:32%;"></div></div></li>
+												<li><span>2 Star</span><div class="review_rating_bar"><div style="width:10%;"></div></div></li>
+												<li><span>1 Star</span><div class="review_rating_bar"><div style="width:3%;"></div></div></li>
+											</ul>
+										</div>
+									</div>
+									
+									<!-- Comments -->
+									<div class="comments_container">
+										<ul class="comments_list">
+											<li>
+												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
+													<div class="comment_image"><div><img src="images/comment_1.jpg" alt=""></div></div>
+													<div class="comment_content">
+														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
+															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
+															<div class="comment_rating"><div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div></div>
+															<div class="comment_time ml-auto">1 day ago</div>
+														</div>
+														<div class="comment_text">
+															<p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+														</div>
+														<div class="comment_extras d-flex flex-row align-items-center justify-content-start">
+															<div class="comment_extra comment_likes"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>15</span></a></div>
+															<div class="comment_extra comment_reply"><a href="#"><i class="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></div>
+														</div>
+													</div>
+												</div>
+												<ul>
+													<li>
+														<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
+															<div class="comment_image"><div><img src="images/comment_2.jpg" alt=""></div></div>
+															<div class="comment_content">
+																<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
+																	<div class="comment_author"><a href="#">John Tyler</a></div>
+																	<div class="comment_rating"><div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div></div>
+																	<div class="comment_time ml-auto">1 day ago</div>
+																</div>
+																<div class="comment_text">
+																	<p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+																</div>
+																<div class="comment_extras d-flex flex-row align-items-center justify-content-start">
+																	<div class="comment_extra comment_likes"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>15</span></a></div>
+																	<div class="comment_extra comment_reply"><a href="#"><i class="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></div>
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
+													<div class="comment_image"><div><img src="images/comment_3.jpg" alt=""></div></div>
+													<div class="comment_content">
+														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
+															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
+															<div class="comment_rating"><div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div></div>
+															<div class="comment_time ml-auto">1 day ago</div>
+														</div>
+														<div class="comment_text">
+															<p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+														</div>
+														<div class="comment_extras d-flex flex-row align-items-center justify-content-start">
+															<div class="comment_extra comment_likes"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>15</span></a></div>
+															<div class="comment_extra comment_reply"><a href="#"><i class="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></div>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<div class="add_comment_container">
+											<div class="add_comment_title">Add a review</div>
+											<div class="add_comment_text">You must be <a href="#">logged</a> in to post a comment.</div>
+										</div>
+									</div>
+								</div>
+
 							</div>
-							<div class="course_price ml-auto">TU Affiliated</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<!-- +2 Management -->
-			<div class="col-lg-4 course_col">
-				<div class="course">
-					<div class="course_image"><img src="images/course_3.jpg" alt=""></div>
-					<div class="course_body">
-						<h3 class="course_title"><a href="https://indrachandracampus.edu.np/programs">+2 Management</a></h3>
-						<div class="course_teacher">Higher Secondary — NEB Affiliated</div>
-						<div class="course_text">
-							<p>
-								The +2 Management program at Indrachandra Campus is a two-year higher secondary 
-								level program affiliated with the National Examinations Board (NEB) of Nepal. 
-								It is designed for students who have completed their SEE (Secondary Education 
-								Examination) and wish to build a strong foundation in business and management.
-							</p>
-							<p>
-								The program covers core subjects including Business Studies, Accountancy, 
-								Economics, Business Mathematics and Statistics, English, and Social Studies 
-								or other optional subjects. These subjects are carefully structured to provide 
-								both academic depth and practical relevance.
-							</p>
-							<p>
-								Students enrolled in the +2 Management stream gain fundamental knowledge of 
-								business principles, economic concepts, financial accounting practices, and 
-								management theory. This foundation is essential for those planning to pursue 
-								undergraduate programs such as BBS, BBA, or other business-related degrees.
-							</p>
-							<p>
-								Indrachandra Campus is committed to making quality higher secondary education 
-								accessible to all students regardless of their socioeconomic background. The 
-								campus provides a nurturing academic environment supported by well-qualified 
-								teachers who guide students through their formative years of higher education.
-							</p>
-							<p>
-								Graduates of the +2 Management program are well-prepared to pursue undergraduate 
-								studies at Indrachandra Campus itself through the BBS program, or at any other 
-								college or university across Nepal. Many alumni have gone on to successful careers 
-								in banking, business, and public service after completing this program.
-							</p>
-						</div>
-					</div>
-					<div class="course_footer">
-						<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-							<div class="course_info">
-								<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								<span>Higher Secondary</span>
+				<!-- Course Sidebar -->
+				<div class="col-lg-4">
+					<div class="sidebar">
+
+						<!-- Feature -->
+						<div class="sidebar_section">
+							<div class="sidebar_section_title">Course Feature</div>
+							<div class="sidebar_feature">
+								<div class="course_price">TU Affiliated</div>
+
+								<!-- Features -->
+								<div class="feature_list">
+
+									<!-- Feature -->
+									<div class="feature d-flex flex-row align-items-center justify-content-start">
+										<div class="feature_title"><i class="fa fa-clock-o" aria-hidden="true"></i><span>Duration:</span></div>
+										<div class="feature_text ml-auto">4 Years</div>
+									</div>
+
+									<!-- Feature -->
+									<div class="feature d-flex flex-row align-items-center justify-content-start">
+										<div class="feature_title"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Level:</span></div>
+										<div class="feature_text ml-auto">Undergraduate</div>
+									</div>
+
+									<!-- Feature -->
+									<div class="feature d-flex flex-row align-items-center justify-content-start">
+										<div class="feature_title"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span>Years:</span></div>
+										<div class="feature_text ml-auto">4</div>
+									</div>
+
+									<!-- Feature -->
+									<div class="feature d-flex flex-row align-items-center justify-content-start">
+										<div class="feature_title"><i class="fa fa-list-alt" aria-hidden="true"></i><span>Certificate:</span></div>
+										<div class="feature_text ml-auto">Yes</div>
+									</div>
+
+									<!-- Feature -->
+									<div class="feature d-flex flex-row align-items-center justify-content-start">
+										<div class="feature_title"><i class="fa fa-users" aria-hidden="true"></i><span>Students:</span></div>
+										<div class="feature_text ml-auto">Open</div>
+									</div>
+
+								</div>
 							</div>
-							<div class="course_info">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-								<span>2 Years</span>
-							</div>
-							<div class="course_price ml-auto">NEB Affiliated</div>
 						</div>
+
+						<!-- Faculty -->
+						<div class="sidebar_section">
+							<div class="sidebar_section_title">Faculty</div>
+							<div class="sidebar_teacher">
+								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
+									<div class="teacher_image"><img src="images/teacher.jpg" alt=""></div>
+									<div class="teacher_title">
+										<div class="teacher_name"><a href="#">Management Faculty</a></div>
+										<div class="teacher_position">Tribhuvan University</div>
+									</div>
+								</div>
+								<div class="teacher_meta_container">
+									<!-- Teacher Rating -->
+									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
+										<div class="teacher_meta_title">Average Rating:</div>
+										<div class="teacher_meta_text ml-auto"><span>4.7</span><i class="fa fa-star" aria-hidden="true"></i></div>
+									</div>
+									<!-- Teacher Review -->
+									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
+										<div class="teacher_meta_title">Review:</div>
+										<div class="teacher_meta_text ml-auto"><span>12k</span><i class="fa fa-comment" aria-hidden="true"></i></div>
+									</div>
+									<!-- Teacher Quizzes -->
+									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
+										<div class="teacher_meta_title">Students:</div>
+										<div class="teacher_meta_text ml-auto"><span>600+</span><i class="fa fa-user" aria-hidden="true"></i></div>
+									</div>
+								</div>
+								<div class="teacher_info">
+									<p>Indrachandra Campus has a team of highly qualified, experienced, and dedicated faculty members across the English, Economics &amp; Statistics, Accounts, and Finance departments committed to shaping the future of every BBS student.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Latest Course -->
+						<div class="sidebar_section">
+							<div class="sidebar_section_title">Related Programs</div>
+							<div class="sidebar_latest">
+
+								<!-- Latest Course -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="https://indrachandracampus.edu.np/programs?programId=1">Bachelor of Business Studies (BBS)</a></div>
+										<div class="latest_price">TU Affiliated</div>
+									</div>
+								</div>
+
+								<!-- Latest Course -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="https://indrachandracampus.edu.np/programs?programId=2">Master of Business Studies (MBS)</a></div>
+										<div class="latest_price">TU Affiliated</div>
+									</div>
+								</div>
+
+								<!-- Latest Course -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="https://indrachandracampus.edu.np/programs">View All Programs</a></div>
+										<div class="latest_price">Indrachandra Campus</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
+
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+						<!-- Newsletter Content -->
+						<div class="newsletter_content text-lg-left text-center">
+							<div class="newsletter_title">sign up for news and offers</div>
+							<div class="newsletter_subtitle">Subcribe to lastest smartphones news &amp; great deals we offer</div>
+						</div>
+
+						<!-- Newsletter Form -->
+						<div class="newsletter_form_container ml-lg-auto">
+							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
+								<button type="submit" class="newsletter_button">subscribe</button>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
+		<div class="container">
+			<div class="row footer_row">
+				<div class="col">
+					<div class="footer_content">
+						<div class="row">
+
+							<div class="col-lg-3 footer_col">
+					
+								<!-- Footer About -->
+								<div class="footer_section footer_about">
+									<div class="footer_logo_container">
+										<a href="#">
+											<div class="footer_logo_text">Unic<span>at</span></div>
+										</a>
+									</div>
+									<div class="footer_about_text">
+										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+									</div>
+									<div class="footer_social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-lg-3 footer_col">
+					
+								<!-- Footer Contact -->
+								<div class="footer_section footer_contact">
+									<div class="footer_title">Contact Us</div>
+									<div class="footer_contact_info">
+										<ul>
+											<li>Email: Info.deercreative@gmail.com</li>
+											<li>Phone:  +(88) 111 555 666</li>
+											<li>40 Baria Sreet 133/2 New York City, United States</li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-lg-3 footer_col">
+					
+								<!-- Footer links -->
+								<div class="footer_section footer_links">
+									<div class="footer_title">Contact Us</div>
+									<div class="footer_links_container">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="about.html">About</a></li>
+											<li><a href="contact.html">Contact</a></li>
+											<li><a href="#">Features</a></li>
+											<li><a href="courses.html">Courses</a></li>
+											<li><a href="#">Events</a></li>
+											<li><a href="#">Gallery</a></li>
+											<li><a href="#">FAQs</a></li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-lg-3 footer_col clearfix">
+					
+								<!-- Footer links -->
+								<div class="footer_section footer_mobile">
+									<div class="footer_title">Mobile</div>
+									<div class="footer_mobile_content">
+										<div class="footer_image"><a href="#"><img src="images/mobile_1.png" alt=""></a></div>
+										<div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
+									</div>
+								</div>
+								
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row copyright_row">
+				<div class="col">
+					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+						<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+						<div class="ml-lg-auto cr_links">
+							<ul class="cr_list">
+								<li><a href="#">Copyright notification</a></li>
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="js/course.js"></script>
+</body>
+</html>
